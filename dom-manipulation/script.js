@@ -16,3 +16,10 @@ var shouldBeGreen = goodList.querySelectorAll('li');
 shouldBeGreen.forEach(element => {
   element.style.color = "green";
 });
+
+
+// ex 4
+var displayButton = document.querySelector('#ex4-display')
+displayButton.addEventListener('click', function (event) {
+  // TODO: display the value of the input
+})
