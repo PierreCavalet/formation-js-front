@@ -6,5 +6,5 @@
 // TODO: Transform the following texts in blue
 
 
-// ex 1
+// ex 3
 // TODO: Transform Jack in green using the jack-list list
