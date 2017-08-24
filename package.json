@@ -1,0 +1,23 @@
+{
+  "name": "formation-js-front",
+  "version": "1.0.0",
+  "description": "formation js front",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreCavalet/formation-js-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierreCavalet/formation-js-front/issues"
+  },
+  "homepage": "https://github.com/PierreCavalet/formation-js-front#readme"
+}
