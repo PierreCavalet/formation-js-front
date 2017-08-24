@@ -1,6 +1,11 @@
 <html>
   <head>
-    <title></title>
+    <title>Dom manipulation</title>
+    <style>
+      .yellow {
+        color: 'yellow';
+      }
+    </style>
   </head>
   <body>
     <h1>Dom manipulation</h1>
@@ -8,7 +13,7 @@
     <div id="my-javascript-formation">
       <h2>Query selector</h2>
 
-      Take a look at the documentation and start the exercices:
+      Take a look at the documentation and start the exercices (ONLY WITH JAVASCRIPT):
       <ul>
         <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector">
@@ -45,7 +50,7 @@
         give us some blue please ... :)
       </p>
 
-      <h3>3) Transform in green the element in 'good-list'</h3>
+      <h3>3) Transform the elements in the 'good-list' in green </h3>
       <ul id="good-list">
         <li>Jack</li>
         <li>Jacky</li>
@@ -58,6 +63,33 @@
       <h3>4) Display the input value in the console when you click on the button</h3>
       <input id="ex4-input" name="ex4-input" type="text"/>
       <button id="ex4-display">display</button>
+
+      <h3>5) Add a 'first' class to the first span</h3>
+      <span id="first">first</span>
+
+      <h3>6) Remove the 'second' class to the second span</h3>
+      <span id="second" class="second">second</span>
+
+      <h3>7) Toggle the 'yellow' class on the third span using the toggle button</h3>
+      <span id="third">third</span>
+      <button id="ex7-toggle">toggle</button>
+
+      <h3>8) Remove the paragraph 'remove-me'</h3>
+      <p id="remove-me">remove me !</p>
+
+      <h3>9) Display the span value in the console when you click on the button</h3>
+      <span id="get-text">get my text if you can !</span>
+      <button id="ex9-display">display</button>
+
+      <h3>10) Display the inner HTML of the ex10 div</h3>
+      <div id="ex10">
+        <h4>title</h4>
+        <p>some content</p>
+      </div>
+      <button id="ex10-display">display</button>
+
+      <h3>11) Create a paragraph element and insert it in the div</h3>
+      <div id="paragraph-container"></div>
     </div>
 
 
