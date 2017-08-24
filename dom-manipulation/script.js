@@ -22,4 +22,6 @@ shouldBeGreen.forEach(element => {
 var displayButton = document.querySelector('#ex4-display')
 displayButton.addEventListener('click', function (event) {
   // TODO: display the value of the input
+  var value = document.querySelector('#ex4-input').value;
+  console.log(value);
 })
