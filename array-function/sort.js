@@ -8,6 +8,6 @@ console.log('array (before)', array1);
 
 // TODO: sort the input1 from largest to smallest
 // ex: [0, 3, 22, 2] -> [22, 3, 2, 0]
-result1 = input1.sort((a, b) => b - a);
+array1.sort((a, b) => b - a);
 
 console.log('array (after)', array1);
