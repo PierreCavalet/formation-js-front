@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>External library</title>
+  </head>
+  <body>
+    <h1>External library</h1>
+
+    <p>
+      The goal is to learn how to install and use an external library. We will
+      first install it with a CDN and then with NPM.
+    </p>
+
+    <h3>1) Import axios HTTP client with the unpkg CDN</h3>
+    <p>
+      We are going to use the
+      <a href="https://jsonplaceholder.typicode.com/" target="_blank">
+        JSONPlaceholder API
+      </a>.
+    </p>
+
+    <h3>2) Fill the post1 title and body with an HTTP request on the JSONPlaceholder API</h3>
+    <h4 id="post1-title"></h4>
+    <p id="post1-body"></p>
+
+    <h3>3) Send a new post to the server</h3>
+    <form onsubmit="return false;">
+      <div>
+        <label for="post-title">Title</label>
+        <input id="post-title" type="text"></input><br /><br />
+        <label for="post-body">Body</label>
+        <textarea id="post-body" rows="5"></textarea>
+      </div>
+      <br />
+      <button id="post" type="button">POST</button>
+    </form>
+
+    <h3>4) Use NPM instead of the CDN to import axios</h3>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
