@@ -8,6 +8,7 @@ var result1;
 // TODO: from the input1, create an array result1 that contains
 // the same value + 1 using the map function
 // ex: [0, 1, 2, 3] -> [1, 2, 3, 4]
+result1 = input1.map(number => number + 1);
 
 console.log('input', input1);
 console.log('result', result1);
@@ -21,6 +22,7 @@ var result2;
 // TODO: from the input2, create an array result2 that contains
 // the string length of each mapped element
 // ex: ["a", "ab", "abc", "abcd"] -> [1, 2, 3, 4]
+result2 = input2.map(myString => myString.length);
 
 console.log('input', input2);
 console.log('result', result2);
@@ -60,6 +62,7 @@ var result3;
 //     lastName: 'Barbossa'
 //   }
 // ] -> ['Sparrow', 'Jones', 'Barbossa']
+result3 = input3.map(character => character.lastName);
 
 console.log('input', input3);
 console.log('result', result3);

@@ -10,8 +10,9 @@ var myMoney = 20;
 
 function howMuchLeft (money, itemPrices) {
   // your code goes here
+  var price = itemPrices.reduce((prev, next) => prev + next, 0);
 
-  return 0;
+  return money - price;
 }
 
 console.log('input', itemPrices);
@@ -40,8 +41,9 @@ var items2 = [
 
 function howMuchLeft2 (money, items) {
   // your code goes here
+  var price = items.reduce((prev, next) => prev + next.price, 0);
 
-  return 0;
+  return money - price;
 }
 
 console.log('input', items2);

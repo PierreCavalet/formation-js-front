@@ -8,6 +8,7 @@ var result1;
 // TODO: from the input1, create an array result1 that contains
 // the input1 values sorted from largest to smallest
 // ex: [0, 3, 22, 2] -> [22, 3, 2, 0]
+result1 = input1.sort((a, b) => b - a);
 
 console.log('input', input1);
 console.log('result', result1);
