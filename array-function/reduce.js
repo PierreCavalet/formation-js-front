@@ -44,5 +44,5 @@ function howMuchLeft2 (money, items) {
   return 0;
 }
 
-console.log('input', items);
+console.log('input', items2);
 console.log('result', howMuchLeft2(myMoney2, items2));
